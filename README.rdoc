@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Heroku app: http://nameless-wildwood-6712.herokuapp.com
+I installed homebrew, and installed appropriate versions of rails and ruby
+I created the new app hw1
+-I then edited the html file and the gemfile
+-I created a repository on github (ASSIGNMENT1)
+-Then I committed to github
+-I deployed the app to heroku
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I experienced alot of difficulties with the installation of rails and ruby, etc but 
+I used homebrew and an excellent step-by-step tutorial online which helped me
+troubleshoot
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
