@@ -20,3 +20,20 @@ I used homebrew and an excellent step-by-step tutorial online which helped me
 troubleshoot
 
 
+==HOMEWORK 2
+
+Final Project Ideas:
+
+1)Home decor store: website for purchasing home decorations. Could include page for inspiration as well.
+
+2)Postcard store: browse postcards and maybe other country-themed memorabilia from all over the world
+
+3)Calendar share: Users can upload calendars for easier, automatic coordination. will help teams set meetings.
+
+Difficulties Experienced on this homework
+
+-Never use hard reset, EVER - will delete all your work
+
+
+Note about final project ideas:
+-I'm not really sure what the scope is supposed to be.
