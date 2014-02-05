@@ -1,3 +1,125 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content{
+	position: relative;
+	height: 345px;
+	width: 100%;
+	min-width: 980px;
+	padding-bottom: 35px;
+	margin: 0;
+}
+
+.content-box{
+	display: block;
+	min-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 333px;
+}
+
+#image{
+	height: 231px;
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	font-size: small;
+	min-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+ul{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+#search{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	height: 28px;
+	width: 570px;	
+	border: 1px solid #cdcdcd;
+}
+#search input{
+	position: relative;
+	display: inline;
+	left: 0px;
+	height: 28px;
+	width: 523px;;
+	padding: 1px;
+	border: none;
+	padding: 0px;
+	width: 100%;
+	max-width: 523px;
+}
+
+#mic{
+	position: relative;
+	float: right;
+	background-image: url('mic.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 14px 19px;
+	display: block;
+	vertical-align: middle;
+	opacity: 0.6!important;
+	padding: 0 4px;
+	height: 27px;
+	width: 29px;
+	line-height: 27px;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+	color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#logo{
+	display: block;
+	position:relative;
+	height: 95px;
+	width: 265px;
+    padding-top: 112px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submit{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+}
+
+.search-buttons{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.search-buttons input{
+	margin: 16px 8px;
+	background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	border: 1px solid #dcdcdc;
+	border-color: rgba(0,0,0,0.1);
+	color: #444!important;
+	font-size: 11px;
+	display: inline-block;
+	font-weight: bold;
+	height: 29px;
+	line-height: 29px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+}

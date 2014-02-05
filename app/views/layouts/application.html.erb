@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hw1</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+	<title>Google</title>
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+<body>
+	
+		<div id = "navbar">	
+			<ul id = "nav">
+				<li> <a class ="nav-link" href = "https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0">+You</a></li>
+				<li> <a class ="nav-link" href = "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">Gmail</a></li>			
+				<li> <a class ="nav-link" href = "https://www.google.com/imghp?hl=en&tab=wi&ei=4yXxUvyaHNSssQT02oGICw&ved=0CAQQqi4oAg">Images</a></li>
+									
+				<li> <a id ="app" href = "http://www.google.com/intl/en/about/products/">Apps</a></li>
+				<li><form id= "sign-in-button" action="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/">
+					<input type ="submit" value="Sign In">
+				</form></li>						
+			</ul>
+		</div>
+
+		<%= yield %>
+	
+		<div class = "footer">
+			<ul id = "foot-nav">
+				<span id = "left-links">
+					<li> <a class = "foot-link" href = "https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+					<li><a class= "foot-link" href = "https://www.google.com/services/?fg=1">Business</a></li>
+					<li><a class = "foot-link" href = "https://www.google.com/intl/en/about/">About</a></li>
+				</span>
+				<span id ="right-links">
+					<li> <a class = "foot-link" href = "https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+					<li><a class = "foot-link" href = "https://www.google.com/preferences?hl=en">Settings</a></li>	
+		
+				</span>
+			</ul>
+
+	</div>
 
 </body>
 </html>

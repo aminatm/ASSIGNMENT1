@@ -11,3 +11,153 @@
  *= require_self
  *= require_tree .
  */
+body{
+	margin: 0;
+	padding: 0;
+	font-size: small;
+	background: #fff;
+	color: #222;
+	font-family: arial,sans-serif;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.viewport{
+	height: 537px;
+	width: 100%;
+	margin-right: 78px;
+	min-width: 980px;
+
+}
+
+#navbar{
+	position: relative;
+	margin-left: 0!important;
+	margin-right: 0!important;
+	padding-left: 15px;
+	padding-right: 30px;
+	height: 60px;
+	min-width: 935px;	
+	//width: 100%;
+	vertical-align: middle;
+}
+
+.links{
+	vertical-align: middle;
+	height: 24px;
+	
+}
+
+#nav li{
+	display: inline;
+	padding-left: 15px;
+	font: 13px/27px Arial,sans-serif;
+	
+}
+
+#nav{
+	list-style-type: none;
+	text-align: center;
+	float: right;
+	//height: 60px;
+	margin-top: 20px;
+}
+
+.nav-link{
+	position: relative;
+	text-decoration: none;
+	color: #404040;
+	min-width: 60px;
+	height: 60px;	
+}
+.nav-link a{
+	position: relative;
+	text-decoration: none;
+	color: #404040;
+	min-width: 60px;
+}
+#app{
+	text-decoration: none;
+	color: #404040;
+	background-image: url('box_matrix.png');
+	background-image-size: 3px 30px;
+	opacity: .55;
+	color: #404040;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: transparent;
+	
+}
+
+#sign-in-button{
+	display: inline;
+	color: #fff;
+
+}
+
+#sign-in-button input{
+	border: 1px solid #4285f4;
+	font: 13px/27px Arial,sans-serif;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	outline: none;
+	color: #fff;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	line-height: 28px;
+	padding: 0 12px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin: 0;
+	text-align: center;
+
+}
+
+.footer{
+	position: fixed;
+	font-size: small;
+	line-height: 40px;
+	min-width: 980px;
+	background: #f2f2f2;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#foot-nav{
+	display: block;
+	margin: 0;
+	position: relative;
+	padding: 0;
+	//background: #f2f2f2;
+	//width: 100%;
+	//min-width: 980px;
+	border-top: 1px solid #e4e4e4;
+	//float: right;
+}
+#foot-nav li{
+	display: inline;
+}
+
+.foot-link{
+	padding-left: 27px;
+	text-decoration: none;
+	text-align: left;
+	color: #666;
+}
+
+#left-links{
+	float: left;
+}
+
+#right-links{
+	display: inline;
+	float: right;
+	position: fixed;
+	right: 0;
+	//min-width: 350px;
+	//min-position: 900px;
+	display: inline;
+	padding-right: 30px;
+	//white-space: nowrap;
+}
